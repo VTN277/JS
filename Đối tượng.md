@@ -40,3 +40,25 @@
 </script>
 
 ```
+* Định nghĩa phương thức tỏng đối tượng JS
+  * cần thêm thuộc tính trong hàm cùng tên cới phương thức
+  ```
+  <script>
+    function emp(id, name, salary) {
+        this.id = id;
+        this.name = name;
+        this.salary = salary;
+        
+        //thuoc tinh nay trung ten phuong thuc
+        this.changeSalary = changeSalary;
+        function changeSalary(otherSalary) {
+            this.salary = otherSalary;
+        }
+    }
+    e = new emp(103, "David", 30000);
+    document.write(e.id + " " + e.name + " " + e.salary);
+    e.changeSalary(45000);
+    document.write("<br>" + e.id + " " + e.name + " " + e.salary);
+  </script>
+  
+  ```
