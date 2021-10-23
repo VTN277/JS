@@ -1,1 +1,28 @@
+## Đối tượng trong JS
+* Là một thực thể có thuộc tính và phương thức
+* 3 cách tạo đối tượng:
+  * Sử dụng chuỗi chữ
+  * Tạo thể hiện của Object (sử dụng từ khóa new)
+  * Sử dụng một hàm tạo đối tượng (sử dụng từ khóa new)
+* Tạo đối tượng bằng chuỗi chữ
+```
+<script>
+    emp = {
+        id : 102,
+        name : "David",
+        salary : 40000
+    }
+    document.write(emp.id + " " + emp.name + " " + emp.salary);
+</script> 
 
+```
+* Tạo đối tượng bằng thể hiện của object (sử dụng new)
+```
+<script>
+    var emp = new Object();
+    emp.id = 101;
+    emp.name = "David";
+    emp.salary = 50000;
+    document.write(emp.id + "" + emp.name + "" + emp.salary);
+</script>
+```
