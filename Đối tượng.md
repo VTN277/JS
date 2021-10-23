@@ -62,3 +62,42 @@
   </script>
   
   ```
+## Array
+* Đ/n : là tập hợp các loại phần tử tương tự
+* 3 Cách tạo mảng trong js
+  * Theo mảng chữ
+  * Tạo thể hiện của Array (sử dụng từ khóa new)
+  * Sử dùng hàm tạo của đối tượng Array (sửu dụng từ khóa new)
+* Theo mảng chữ
+```
+<script>
+    var emp = [ "Java", "PHP", "C++" ];
+    for (i = 0; i < emp.length; i++) {
+        document.write(emp[i] + "<br/>");
+    }
+</script>
+```
+* Thể thiện của Array
+```
+<script>
+    var i;
+    var emp = new Array();
+    emp[0] = "Java";
+    emp[1] = "PHP";
+    emp[2] = "C++";
+ 
+    for (i = 0; i < emp.length; i++) {
+        document.write(emp[i] + "<br>");
+    }
+</script>
+```
+* Sử dụng hàm tạo của đối tượng Array
+```
+<script>
+    var emp = new Array("Java", "PHP", "C++");
+    for (i = 0; i < emp.length; i++) {
+        document.write(emp[i] + "<br>");
+    }
+</script>
+```
+
