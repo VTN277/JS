@@ -21,8 +21,22 @@
 <script>
     var emp = new Object();
     emp.id = 101;
-    emp.name = "David";
+    emp.name = "David";s
     emp.salary = 50000;
     document.write(emp.id + "" + emp.name + "" + emp.salary);
 </script>
+```
+* Tạo đối tượng bằng cách sử dụng một hàm tạo đối tượng (sử dụng từ khóa new)
+```
+<script>
+    function emp(id, name, salary) {
+        this.id = id;
+        this.name = name;
+        this.salary = salary;
+    }
+    e = new emp(103, "David", 30000);
+ 
+    document.write(e.id + " " + e.name + " " + e.salary);
+</script>
+
 ```
