@@ -100,4 +100,25 @@
     }
 </script>
 ```
+## String
+* Có 2 cách để tạo chuỗi : theo chuỗi chữ, theo đối tượng String(sử dụng từ khóa new)
+* Theo chuỗi chữ
+```
+<script>
+    var str = "Day la mot chuoi JavaScript";
+    document.write(str);
+</script>
+```
+* Theo đối tượng
+```
+<script>
+    var stringname = new String("Hello javascript string");
+    document.write(stringname);
+</script>
+```
+* Các phương thức xử lý chuỗi :charAt(index), concat(str), indexOf(str), lastIndexOf(str), toLowerCase(), toUpperCase(), slice(beginIndex, endIndex), trim(str)
+## Date
+## Math
+## Number
+## Boolean
 
