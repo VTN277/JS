@@ -77,7 +77,7 @@
     }
 </script>
 ```
-* Thể thiện của Array
+* Thể hiện của Array
 ```
 <script>
     var i;
